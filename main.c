@@ -1,3 +1,7 @@
+// Javlonbek Butabaev
+// cs2750 PA# 5
+// 11/17/2017
+
 #include <stdio.h>
 #include "func.h"
 #include <ctype.h>
