@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, str_count = 0, num_count = 0, total;
+	int i, str_count = 0, num_count = 0, total = 0;
 	int *nums;
 	char **strs;
 
@@ -48,7 +48,8 @@ int main(int argc, char *argv[])
 	}
 
 	// Final output
-	printf("Total integers: %i\n\n", total);
+	printf("\n\nTotal integers: %i\n\n", total);
+	func(strs, str_count);
 	
 	return 0;
 }
